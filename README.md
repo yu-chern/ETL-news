@@ -1,4 +1,7 @@
 # ETL-news
+## Contributors
+* Yu Chen
+* Zeqing Cai
 # A Simple ETL Data Pipeline: Extract Data from Raw News Source and Save in A Database
 ![Airflow ETL Data Pipeline](fig/data_pipeline.jpg)
 ## Requirements
@@ -71,3 +74,5 @@
 * Unpose the `etl_news_pipeline` dag to activate it and Airflow will run each task as you defined and scheduled
 
     ![Airflow ETL Data Pipeline](fig/airflow_event_management.jpg)
+
+
