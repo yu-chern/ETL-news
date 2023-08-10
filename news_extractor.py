@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from transform import transform_data
 
-#News api key: 5f064216a5a9434e9e1464227097fd52
+#News api key: 
 
 def extract_data():
     url = ('https://newsapi.org/v2/everything?'
@@ -11,7 +11,7 @@ def extract_data():
         'sources=bbc-news&'
         'from=2023-07-01&'
         'sortBy=popularity&'
-        'apiKey=5f064216a5a9434e9e1464227097fd52'
+        'apiKey='
       )
     sql_table_name = 'news_etl_table'
     news_csv_file = 'news_table.csv'
